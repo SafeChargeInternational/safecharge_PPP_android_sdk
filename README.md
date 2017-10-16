@@ -5,7 +5,7 @@ Minimal supported version is API 16, recommended is API 21.
 
 ## Installation
 
-### Maeven plugin
+### Maven plugin
 Add com.safecharge:safecharge_ppp_android_sdk as maeven module dependency.
 
 ### Manual include
