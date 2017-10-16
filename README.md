@@ -1,5 +1,16 @@
 # safecharge_PPP_android_sdk
 
+## Requirements
+Minimal supported version is API 16, recommended is API 21. 
+
+## Installation
+
+### Maeven plugin
+Add com.safecharge:safecharge_ppp_android_sdk as maeven module dependency.
+
+### Manual include
+Clone the PPWebViewSDK and use it as module dependency.
+
 ## Introduction
 The Cashier SDK provides developers an easy and straightforward way to implement Cashier in your Android and iOS applications. The Cashier SDK generates Request URLs to the Cashier payment page from which your customers can make deposits or the withdrawal page from which your customers can generate withdrawal requests within the customer's mobile device. From these pages, your customers can complete their transaction using all supported payment methods. This guide provides code samples of the Cashier SDK and an explanation of how to implement the SDK into your application.
 
