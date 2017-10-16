@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+    
+    <CheckBox android:id="@+id/request_activity_redirect_check"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Redirect on result"/>
+    
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"> 
+        
+         <Button android:id="@+id/request_activity_default_pp_button"
+	        android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:text="Generate PP"/>
+	
+	    <Button android:id="@+id/request_activity_default_wd_button"
+	        android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:text="Generate WD"/>
+    </RelativeLayout>
+
+    <EditText android:id="@+id/request_activity_url_edit" 
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"/>
+    
+    
+    <Button android:id="@+id/request_activity_redirect_load_button"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Load URL"/>
+
+</LinearLayout>
