@@ -6,7 +6,7 @@ Minimal supported version is API 16, recommended is API 21.
 ## Installation
 
 ### Maven plugin
-Add com.safecharge:safecharge_ppp_android_sdk as maeven module dependency.
+Add com.safecharge:safecharge_ppp_android_sdk:1.1.0 as maven module dependency.
 
 ### Manual include
 Clone the PPWebViewSDK and use it as module dependency.
